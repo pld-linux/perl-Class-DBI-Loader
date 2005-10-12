@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	DBI-Loader
-Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes.
-#Summary(pl):	
+Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes
+Summary(pl):	Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
 Name:		perl-Class-DBI-Loader
 Version:	0.22
 Release:	1
@@ -28,11 +28,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Class::DBI::Loader automate the definition of Class::DBI sub-classes.
-scan table schemas and setup columns, primary key.
-Class::DBI::Loader supports MySQL, Postgres and SQLite.
+Is scans table schemas and setup columns, primary key.
+Class::DBI::Loader supports MySQL, PostgreSQL and SQLite.
 
-# %description -l pl
-# TODO
+%description -l pl
+Class::DBI::Loader automatyzuje definiowanie podklas Class::DBI. 
+Skanuje schematy tabel i ustawia kolumny oraz klucz g³ówny.
+Class::DBI::Loader obs³uguje MySQL-a, PostgreSQL-a oraz SQLite.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -59,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Class/DBI/*.pm
 # Class::DBI::Pg is not in PLD yet
 %exclude %{perl_vendorlib}/Class/DBI/Loader/Pg.pm
-%{perl_vendorlib}/Class/DBI/Loader/
+%{perl_vendorlib}/Class/DBI/Loader
 %exclude %{_mandir}/man3/*Pg*
 %{_mandir}/man3/*
