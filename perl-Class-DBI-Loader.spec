@@ -6,7 +6,7 @@
 %define	pdir	Class
 %define	pnam	DBI-Loader
 Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes
-Summary(pl):	Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
+Summary(pl.UTF-8):   Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
 Name:		perl-Class-DBI-Loader
 Version:	0.22
 Release:	1
@@ -31,10 +31,10 @@ Class::DBI::Loader automate the definition of Class::DBI sub-classes.
 Is scans table schemas and setup columns, primary key.
 Class::DBI::Loader supports MySQL, PostgreSQL and SQLite.
 
-%description -l pl
+%description -l pl.UTF-8
 Class::DBI::Loader automatyzuje definiowanie podklas Class::DBI. 
-Skanuje schematy tabel i ustawia kolumny oraz klucz g≥Ûwny.
-Class::DBI::Loader obs≥uguje MySQL-a, PostgreSQL-a oraz SQLite.
+Skanuje schematy tabel i ustawia kolumny oraz klucz g≈Ç√≥wny.
+Class::DBI::Loader obs≈Çuguje MySQL-a, PostgreSQL-a oraz SQLite.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
