@@ -6,7 +6,7 @@
 %define	pdir	Class
 %define	pnam	DBI-Loader
 Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes
-Summary(pl.UTF-8):   Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
+Summary(pl.UTF-8):	Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
 Name:		perl-Class-DBI-Loader
 Version:	0.22
 Release:	1
