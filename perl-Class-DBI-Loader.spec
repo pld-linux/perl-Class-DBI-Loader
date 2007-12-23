@@ -8,13 +8,13 @@
 Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes
 Summary(pl.UTF-8):	Class::DBI::Loader - dynamiczne definiowanie podklas Class::DBI
 Name:		perl-Class-DBI-Loader
-Version:	0.22
+Version:	0.34
 Release:	1
 # same as perl 
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fdb246040add571cffc1134184e9ca0f
+# Source0-md5:	ed560f11d64621fd9107e287f9c8eae4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
