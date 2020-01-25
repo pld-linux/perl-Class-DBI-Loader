@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	DBI-Loader
 Summary:	Class::DBI::Loader - Dynamic definition of Class::DBI sub classes
